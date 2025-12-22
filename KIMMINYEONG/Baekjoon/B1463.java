@@ -1,10 +1,10 @@
 import  java.util.*;
 
 /*
-문제 링크: https://www.acmicpc.net/problem/1463
-시간: ms
-메모리: KB
-접근 방법: DP(동적계획법)
+문제 링크 : https://www.acmicpc.net/problem/1463
+시간 : 192ms
+메모리 : 21592KB
+접근 방법 : DP(동적계획법)
 */
 
 public class B1463 {
