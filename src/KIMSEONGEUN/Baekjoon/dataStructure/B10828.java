@@ -18,7 +18,6 @@ public class B10828 {
 
         int n = Integer.parseInt(br.readLine());
 
-        int last = 0;
 
         for (int i = 0; i < n; i++) {
             StringTokenizer st = new StringTokenizer(br.readLine());
@@ -29,7 +28,6 @@ public class B10828 {
                 case "push":
                     int x = Integer.parseInt(st.nextToken());
                     stack.push(x);
-                    last = x;
                     break;
 
                 case "pop":
@@ -38,6 +36,7 @@ public class B10828 {
                     } else {
                         sb.append(stack.pop()).append("\n");
                     }
+                    break;
 
                 case "size":
                     sb.append(stack.size()).append("\n");
@@ -49,13 +48,15 @@ public class B10828 {
                     } else {
                         sb.append(0).append("\n");
                     }
+                    break;
 
                 case "top":
                     if (stack.isEmpty()) {
                         sb.append(-1).append("\n");
                     } else {
-                        sb.append(last).append("\n");
+                        sb.append(stack.peek()).append("\n");
                     }
+                    break;
             }
         }
 
