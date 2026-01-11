@@ -1,11 +1,11 @@
 import java.util.*;
 import java.io.*;
 /**
- * 실버 2
+ * 실버 2 dp
  * 뒤로 갈수로 값이 작아지는 수열 중에서의 최대 수열 길이
  */
 
-public class B11725 {
+public class B11722 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int n = Integer.parseInt(br.readLine());
