@@ -5,7 +5,7 @@ import java.util.*;
  * 실버 1 bfs
  */
 
-public class B9342 {
+public class B1325 {
     static boolean[] visited; // 방문 여부
     static List<Integer>[] lists; // 컴퓨터들 간의 신뢰 여부
     static int n, m;

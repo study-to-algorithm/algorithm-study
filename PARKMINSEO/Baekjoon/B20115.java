@@ -6,7 +6,7 @@ import java.util.*;
  * 제일 용량이 큰 에너지 드링크에 나머지를 절반씩 다 부으면 그게 최대 용량의 에너지 드링크
  */
 
-public class B9342 {
+public class B20115 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int n = Integer.parseInt(br.readLine()); // 에너지 드링크의 수
