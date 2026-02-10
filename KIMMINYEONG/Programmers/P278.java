@@ -2,7 +2,7 @@ package Programmers;
 
 public class P278 {
     public String solution(String[] cards1, String[] cards2, String[] goal) {
-        String answer = "";
+        String answer =  " ";
         
         int idx1=0;
         int idx2=0;
